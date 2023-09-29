@@ -1,0 +1,69 @@
+.dialog-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  max-height: 500px;
+  max-width: 350px;
+}
+.dialog__header {
+  display: flex;
+  background-color: #ddd;
+}
+.dialog__header-title-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.dialog__header-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dialog__header-button {
+  white-space: nowrap;
+}
+.dialog__content {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+.dialog__content-block_left {
+  display: flex;
+  width: 30%;
+  border-right: 1px solid #ccc;
+}
+.dialog__content-block_right {
+  display: flex;
+  width: 70%;
+  overflow: scroll;
+}
+.dialog__footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
